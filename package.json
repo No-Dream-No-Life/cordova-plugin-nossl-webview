@@ -1,0 +1,18 @@
+{
+  "name": "cordova-plugin-nossl-webview",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-nossl-webview",
+    "platforms": [
+      "android"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.0.0"
+    }
+  ],
+  "author": "BySlin",
+  "license": "MIT"
+}

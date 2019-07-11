@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-nossl-webview" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>NoSSL WebView</name>
+    <license>MIT</license>
+    <platform name="android">
+        <source-file src="src/android/NoSSLSystemWebView.java" target-dir="src/org/apache/cordova/nossl/webview"/>
+        <source-file src="src/android/NoSSLSystemWebViewClient.java" target-dir="src/org/apache/cordova/nossl/webview"/>
+        <source-file src="src/android/NoSSLSystemWebViewEngine.java" target-dir="src/org/apache/cordova/nossl/webview"/>
+    </platform>
+</plugin>
